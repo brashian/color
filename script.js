@@ -22,4 +22,5 @@ function Hacerclick(){
     console.log(angulos)
     fondo.style.background = ` linear-gradient(${angulos+"deg"},${color1} ${range +"%"},${color2 })`;
     
+    document.getElementById("texto").innerHTML = ` linear-gradient(${angulos+"deg"},${color1} ${range +"%"},${color2 })`;
 }
